@@ -441,3 +441,7 @@ body {
     color: #b9c1cc;
     font-family: Mulish,Avenir Next,Trebuchet MS,sans-serif;
 }
+
+div#scroll-top i {
+    font-size: 35px;
+}
