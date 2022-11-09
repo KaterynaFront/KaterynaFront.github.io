@@ -15,8 +15,6 @@
     width: auto;
     height: 550px;
 }
-.main-image {
-}
 .content-section {
     display: flex;
 }
@@ -43,7 +41,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 .text-box{
-    margin: 0 60px;
+    margin: 15px 60px;
     font-family: 'Open Sans', sans-serif;
 }
 .your-artist-background h1 {
@@ -332,10 +330,6 @@
   padding: 15px 25px;
   text-decoration: none;
 }
-
-a:hover {
-  background-color: #d6336c;
-}
 /* .photo-arts {} */
 /* .about-name {
     /* background-color: #7F8F84; */
@@ -399,7 +393,7 @@ body {
   
   #scroll-top:hover button {
     width: 120px;
-    background: #9b59b6;
+    background: #306878d6;
   }
   
   #scroll-top:hover button span {
@@ -445,3 +439,36 @@ body {
 div#scroll-top i {
     font-size: 35px;
 }
+.button-first {
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Roboto, Verdana, Tahoma, sans;
+    padding: 12px 30px;
+    border-radius: 100px;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+  }
+  .button-first i {
+    margin-right: 4px;
+  }
+  .button-first.yellow {
+    background: #ffe101;
+  }
+  .button-first:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .button-first:hover.yellow {
+    background: #306878d6;
+  }
+  .button-first:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .button-first:active.yellow {
+    background: #d1b903;
+  }
