@@ -15,8 +15,6 @@
     width: auto;
     height: 550px;
 }
-.main-image {
-}
 .content-section {
     display: flex;
 }
@@ -331,10 +329,6 @@
   color: #eee;
   padding: 15px 25px;
   text-decoration: none;
-}
-
-a:hover {
-  background-color: #d6336c;
 }
 /* .photo-arts {} */
 /* .about-name {
