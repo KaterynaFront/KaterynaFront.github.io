@@ -1,19 +1,52 @@
 .header-style {
-    background-color: #ffffff;
+    background-color: #d2d6d86e;
+    position: fixed;  
+    top: 0;  
+    z-index: 100;  
+    width: 1200px;
+    box-shadow: 0 3px 6px 0 rgba(50,50,50,.3);
 }
-.name-style {
+.navigation {
+    display: flex;
+}
+.name-brand {
     position: relative;
     white-space: nowrap;
     margin-left: 80;
-    padding: 90px;
+    /* padding: 90px; */
     font-family: 'Amatic SC', cursive;
     font-size: 40px;
-    color: #b9c1cc;
+    color: #306878d6;
+    display: flex;
+    flex: 1 1;
+}
+.header-navi {
+    display: flex;
+    flex: 1 1;
+    margin-top: 15px;
 }
 .photo-brashes {
     width: auto;
     height: 550px;
 }
+.abstr {
+    width: 395px;
+    height: 500px;
+}
+.tabcontent__descr {
+    position: absolute;
+    top: 300px;
+    right: -177px;
+    width: 550px;
+    height: 359px;
+    background: rgba(251, 254, 93, 0.8);
+    padding: 50px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
 .content-section {
     display: flex;
 }
@@ -21,13 +54,13 @@
     background-color: #b9c1cc;
 }
 .bg-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../photo/2.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../photo/mountains.png");
     background-size: cover;
     background-position: center;
 }
 .your-artist-section {
     display: flex;
-    margin: 50px auto;
+    padding: 50px;
 }
 .your-artist-background {
     background-color: #ffffff;
