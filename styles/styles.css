@@ -29,24 +29,120 @@
     width: auto;
     height: 550px;
 }
-.abstr {
-    width: 395px;
-    height: 500px;
-}
-.tabcontent__descr {
-    position: absolute;
-    top: 300px;
-    right: -177px;
-    width: 550px;
-    height: 359px;
-    background: rgba(251, 254, 93, 0.8);
+.bg-choose-style {
+    background-color: #f2f2f2;
     padding: 50px;
+    display: flex;
+}
+.content-choose-style {
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+.style-image {
+    margin-top: 50px;
+    width: 395px;
+    height: 515px;
+    position: relative;
+    z-index: 2;
+}
+.rectangle-yellow{
+    position: absolute;
+    top: 750px;
+    right: 670px;
+    width: 220px;
+    height: 515px;
     font-size: 24px;
     font-weight: 300;
     line-height: 36px;
     color: rgba(0, 0, 0, 0.7);
+    background: #ffe101;
+    padding: 50px;
+    z-index: 1;
+}
+@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 1200px) {
+    .rectangle-yellow {
+        top: 750px;
+        right: 670px;
+    }   
 }
 
+.text-syles {
+    margin-right: 0; 
+    margin-left: auto;
+}
+.styles-h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.name-description-h3{
+    margin: 0;
+    font-size: 25px;
+    color: #000000;
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.description-h5 {
+    margin: 10px 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.blue-styles-test {
+    background-color: #387281db;
+    width: 300px;
+    height: 300px;
+    margin-right: 0; 
+    margin-left: auto;
+    padding: 35px;
+}
+.white-styles-test {
+    background-color: #ffffff;
+    width: 600px;
+    height: 320px;
+    margin-right: 0; 
+    margin-left: auto;
+    position: relative;
+    z-index: 2;
+}
+.tabheader-items {
+    margin-top: 35px;
+    padding-left: 26px;
+    border-left: 2px solid rgb(255, 255, 255);
+    margin-left: 35px;
+}
+.tabheader-item {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #d9d9d9;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Raleway', sans-serif;
+}
+.tabheader-item-active {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+/*  */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+/*  */
 .content-section {
     display: flex;
 }
@@ -61,6 +157,7 @@
 .your-artist-section {
     display: flex;
     padding: 50px;
+    margin-top: 50px;
 }
 .your-artist-background {
     background-color: #ffffff;
