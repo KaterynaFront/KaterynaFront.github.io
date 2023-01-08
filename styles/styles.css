@@ -68,7 +68,7 @@
     }   
 }
 
-.text-syles {
+.choose-menu {
     margin-right: 0; 
     margin-left: auto;
 }
@@ -93,7 +93,10 @@
     font-size: 14px;
     line-height: 25px;
 }
-.blue-styles-test {
+.styles-description {
+    display: grid;
+}
+.blue-styles-text {
     background-color: #387281db;
     width: 300px;
     height: 300px;
