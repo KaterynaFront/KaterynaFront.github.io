@@ -30,9 +30,10 @@
     height: 550px;
 }
 .bg-choose-style {
-    background-color: #f2f2f2;
+    background-color: #b9c1cc;
     padding: 50px;
     display: flex;
+    height: 690px;
 }
 .content-choose-style {
     display: flex;
@@ -41,30 +42,31 @@
 }
 .style-image {
     margin-top: 50px;
-    width: 395px;
+    width: 400px;
     height: 515px;
     position: relative;
     z-index: 2;
+    border: 5px solid rgb(255, 255, 255);
 }
 .rectangle-yellow{
     position: absolute;
     top: 750px;
     right: 670px;
     width: 220px;
-    height: 515px;
+    height: 525px;
     font-size: 24px;
     font-weight: 300;
     line-height: 36px;
     color: rgba(0, 0, 0, 0.7);
-    background: #ffe101;
+    background: #f1c50e;
     padding: 50px;
     z-index: 1;
 }
-@media only screen and (min-width: 992px) {...}
+/* @media only screen and (min-width: 992px) {...} */
 @media only screen and (min-width: 1200px) {
     .rectangle-yellow {
         top: 750px;
-        right: 670px;
+        right: 710px;
     }   
 }
 
@@ -91,11 +93,11 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 20px;
     font-size: 14px;
-    line-height: 25px;
+    line-height: 30px;
 }
 .blue-styles-test {
     background-color: #387281db;
-    width: 300px;
+    width: 325px;
     height: 300px;
     margin-right: 0; 
     margin-left: auto;
@@ -111,13 +113,13 @@
     z-index: 2;
 }
 .tabheader-items {
-    margin-top: 35px;
+    margin-top: 15px;
     padding-left: 26px;
     border-left: 2px solid rgb(255, 255, 255);
     margin-left: 35px;
 }
 .tabheader-item {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 300;
     margin-top: 10px;
     color: #d9d9d9;
@@ -127,14 +129,23 @@
 }
 .tabheader-item-active {
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 32px;
     font-weight: bold;
     
 }
 /*  */
+
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 1;
+    }
 }
 .show {
     display: block;

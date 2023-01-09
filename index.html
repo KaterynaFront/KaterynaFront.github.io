@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src = "js/script.js"></script>
 </head>
 <body>
     <div>
@@ -58,7 +57,10 @@
             </div>
             <!-- Менюшка Стилей -->
             <div class="bg-choose-style">
-                <img class="style-image" src="photo/abstraction(1).jpg" alt="abstraction">
+                <img class="style-image show fade" src="photo/abstraction(1).jpg" alt="abstraction">
+                <img class="style-image hide" src="photo/still-life.jpg" alt="still life">
+                <img class="style-image hide" src="photo/landscape.jpg" alt="landscape">
+                <img class="style-image hide" src="photo/portrait.jpg" alt="portrait">
                 <div class="rectangle-yellow"></div>
                 <div class="text-syles">
                     <div class="blue-styles-test">
@@ -70,7 +72,7 @@
                             <div class="tabheader-item">Портрет</div>
                         </div>
                     </div>
-                    <div class="white-styles-test">
+                    <div class="white-styles-test show fade">
                         <h3 class="name-description-h3">АБСТРАКЦІЯ</h3>
                         <h5 class="description-h5">​Абстрактний стиль сьогодні знаходиться на вершині 
                             популярності та потреб в оформленні сучасного інтер'єру. 
@@ -78,6 +80,30 @@
                             допомогою незвичайних фігур, геометричних ліній i сміливих 
                             рішень. Такий стиль досить непередбачуваний. Навіть митець 
                             не знає до кінця який буде результат.</h5>
+                    </div>
+                    <div class="white-styles-test hide">
+                        <h3 class="name-description-h3">НАТЮРМОРТ</h3>
+                        <h5 class="description-h5">Натюрморт – це жанр образотворчого мистецтва, в якому 
+                            головними персонажами твору виступають неживі предмети, композиційно розташовані 
+                            у реалістичному просторі. Зображає зірвані 
+                            плоди, квіти, спійману рибу та здобич мисливців, пізніше додались предмети, з 
+                            часом букети квітів, композиції овочів, фруктів. </h5>
+                    </div>
+                    <div class="white-styles-test hide">
+                        <h3 class="name-description-h3">ПЕЙЗАЖ</h3>
+                        <h5 class="description-h5">Пейзаж — жанр в образотворчому мистецтві, в якому об'єктом 
+                            зображення є природа. Пейзажем називають також окремий твір цього жанру. Як 
+                            самостійний різновид образотворчого мистецтва пейзаж виник у китайському 
+                            мистецтві, китайському живописі. Різновидом пейзажу є зображення моря і 
+                            подій, що відбуваються на морі.</h5>
+                    </div>
+                    <div class="white-styles-test hide">
+                        <h3 class="name-description-h3">ПОРТРЕТ</h3>
+                        <h5 class="description-h5">Портрет або портретний жанр — мальоване, скульптурне 
+                            або фотографічне зображення людини або групи людей, а також відповідний жанр 
+                            образотворчого мистецтва. Даний жанр дозволяє найбільш яскраво виразити свою 
+                            точку зору за допомогою живопису та передати певну смислову динаміку, чого 
+                            досить складно досягти вдаючись до інших жанрів.</h5>
                     </div>
                 </div>
             </div>
@@ -256,6 +282,7 @@
             </div>
         </footer>
     </div>
+    <script src = "js/script.js"></script>
 </body>
 </html>
 
