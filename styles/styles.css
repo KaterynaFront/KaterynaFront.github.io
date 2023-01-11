@@ -283,6 +283,7 @@
 .talking-about-art {
     background-color: #306878d6;
     width: 340px;
+    height: 630px;
 }
 .talking-about-art h2 {
     color:#b9c1cc;
@@ -389,6 +390,66 @@
     width: 260px;
     background: #f1c50e;
     margin-right: 20px;
+}
+.timer-section {
+    height: 310px;
+    background-color: #ffffff;
+    padding: 100px 50px 50px 50px;
+}
+.text-above-timer {
+    margin-top: 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 80px;
+}
+.textOfferSales {
+    display: flex;
+}
+.offer {
+    margin-top: 0;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+.condition-offers {
+    margin-top: 0;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.timer{
+    display: flex;
+}
+#box-timer {
+    width:130px;
+    height:160px;
+    background-color:#f1c50e; 
+    border-radius: 10px
+}
+.box-items {
+}
+.timer-item {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+    color: #534b29;
+    font-family:  Mulish,Avenir Next,Trebuchet MS,sans-serif;
+}
+.timer-item-text {
+    text-align: center;
+    color: #534b29;
+    font-family:  Mulish,Avenir Next,Trebuchet MS,sans-serif;
+    font-size: 20px;
+    display: block;
+}
+.colon {
+    font-size: 110px;
+    color: #534b29;
 }
 .sections-5 {
     padding: 50px;
