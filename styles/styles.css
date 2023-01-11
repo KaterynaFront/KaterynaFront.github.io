@@ -30,7 +30,7 @@
     height: 550px;
 }
 .bg-choose-style {
-    background-color: #b9c1cc;
+    background-color: #f2f2f2;
     padding: 50px;
     display: flex;
     height: 690px;
@@ -78,8 +78,10 @@
     margin: 0;
     font-size: 20px;
     color: #ffffff;
-    padding: 30px;
     font-family: 'Raleway', sans-serif;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 .name-description-h3{
     margin: 0;
@@ -131,7 +133,6 @@
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: bold;
-    
 }
 /*  */
 
@@ -153,9 +154,17 @@
 .hide {
     display: none;
 }
+
+.hide img {
+    display: none;
+}
 /*  */
 .content-section {
     display: flex;
+}
+.section-choose-material {
+    display: flex;
+    padding: 50px;
 }
 .bg-grey {
     background-color: #b9c1cc;
@@ -193,7 +202,7 @@
 .about-arts{
     color:#ffffff;
     border-style: solid;
-    border-color: #ffe101;
+    border-color: #f1c50e;
     border-width: 15px;
     width: 550px;
     height: 550px;
@@ -216,13 +225,12 @@
 .about-artist {
     background-color: #ffffff;
 }
-.your-artist-section-3 {
+.choose-materials-art {
     display: flex;
-    margin: 50px auto;
 }
-.tulips {
+.art-img3 {
     height: 630px;
-    margin-left: 50px;
+    width: 380px;
 }
 .art-img1 {
     height: 315px;
@@ -232,9 +240,49 @@
     height: 315px;
     width: 380px;
 }
+.content-materials {
+    border: 4px solid;
+    border-color: #f1c50e;
+    margin: 20px;
+    padding: 20px;
+    height: 250px;
+    margin-top: 50px;
+}
+.materials-name {
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    color:#d9d9d9;
+}
+.materials-description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color:#d9d9d9;
+}
+.materials-items{
+    margin-top: 15px;
+    padding-left: 26px;
+    border-left: 2px solid rgb(255, 255, 255);
+    margin-left: 35px;
+}
+.material-item {
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #d9d9d9;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Raleway', sans-serif;
+}
+.materials-active {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: bold;
+}
 .talking-about-art {
     background-color: #306878d6;
-    margin-right: 50px;
+    width: 340px;
 }
 .talking-about-art h2 {
     color:#b9c1cc;
